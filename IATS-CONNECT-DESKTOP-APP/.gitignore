@@ -1,0 +1,23 @@
+# Build output
+target/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# --- Secrets & local configuration -------------------------------------
+# The real config (Supabase URL + publishable/anon key, admin email) must
+# never be committed. Only config.properties.example is tracked.
+config.properties
+config.*.properties
+*.local.properties
+!config.properties.example
+.env
+.env.*
+!.env.example
+
+# Local data cache written by the app (may contain user data)
+.iats-connect/
+iats-cache/

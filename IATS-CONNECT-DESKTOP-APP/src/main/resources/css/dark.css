@@ -1,0 +1,141 @@
+/* The JavaFX shell applies the navy/red palette directly. */
+.root {
+    -fx-base: #1E2126;
+    -fx-background: #15171B;
+    -fx-control-inner-background: #25282E;
+    -fx-control-inner-background-alt: #202329;
+    -fx-accent: #DF626B;
+    -fx-focus-color: #DF626B;
+    -fx-faint-focus-color: rgba(223, 98, 107, 0.16);
+    -fx-font-family: "Segoe UI", "Inter", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.label {
+    -fx-text-fill: #F3F1EC;
+}
+
+.text-field,
+.password-field,
+.text-area {
+    -fx-background-color: #25282E;
+    -fx-text-fill: #F3F1EC;
+    -fx-prompt-text-fill: #858B95;
+    -fx-highlight-fill: #DF626B;
+    -fx-highlight-text-fill: white;
+    -fx-background-radius: 9px;
+    -fx-border-color: #383C44;
+    -fx-border-radius: 9px;
+    -fx-padding: 11px 12px;
+}
+
+.text-field:focused,
+.password-field:focused,
+.text-area:focused {
+    -fx-border-color: #DF626B;
+    -fx-border-width: 1.2px;
+}
+
+.text-area .content {
+    -fx-background-color: #25282E;
+    -fx-background-radius: 9px;
+}
+
+.button {
+    -fx-background-color: #292C32;
+    -fx-text-fill: #F3F1EC;
+    -fx-background-radius: 9px;
+    -fx-border-color: #383C44;
+    -fx-border-radius: 9px;
+    -fx-padding: 10px 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #343840;
+    -fx-border-color: #555B65;
+}
+
+.button:focused {
+    -fx-border-color: #DF626B;
+}
+
+.button:disabled {
+    -fx-opacity: 0.55;
+}
+
+.combo-box,
+.choice-box,
+.date-picker {
+    -fx-background-color: #25282E;
+    -fx-border-color: #383C44;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.combo-box .list-cell,
+.choice-box .label,
+.date-picker .text-field {
+    -fx-text-fill: #F3F1EC;
+}
+
+.combo-box-popup .list-view,
+.context-menu {
+    -fx-background-color: #25282E;
+    -fx-border-color: #383C44;
+}
+
+.combo-box-popup .list-cell {
+    -fx-text-fill: #F3F1EC;
+    -fx-background-color: #25282E;
+}
+
+.combo-box-popup .list-cell:hover,
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #383C44;
+}
+
+.check-box,
+.radio-button {
+    -fx-text-fill: #F3F1EC;
+}
+
+.check-box .box,
+.radio-button .radio {
+    -fx-background-color: #25282E;
+    -fx-border-color: #555B65;
+}
+
+.separator .line {
+    -fx-border-color: #30343B;
+}
+
+.scroll-pane,
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #414650;
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #555C67;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.tooltip {
+    -fx-background-color: #30343B;
+    -fx-text-fill: #F3F1EC;
+    -fx-background-radius: 6px;
+}

@@ -1,0 +1,5 @@
+# Copy this file to config.properties and fill in your Supabase publishable/anon key.
+supabase.url=https://ojobzjornniyjrqszglk.supabase.co
+supabase.anon.key=sb_publishable_2keJ_zXVnyJa7fBv-bfDFw_G2SW77EH
+# Must match the administrator email allowed by the existing database policies.
+admin.email=focalforges@gmail.com
